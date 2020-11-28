@@ -42,7 +42,7 @@ services:
     depends_on:
       - db_dancarlton
     environment:
-      - SERVICE_PORTS=7070
+      - SERVICE_PORTS=7072
       - DATABASE_HOST=db_dancarlton
       - DATABASE_USER=dancarlton
       - DATABASE_PASSWORD=dancarlton2020++
