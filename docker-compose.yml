@@ -31,7 +31,7 @@ services:
       timeout: 20s
       retries: 10
   dancarlton-service:
-    image: wortiz1027/dancarlton-services:latest
+    image: wortiz1027/dancarlton-service:latest
     container_name: dancarlton-service
     hostname: dancarlton-service
     restart: always
